@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid;
+}
+
+input {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border: 2px solid purple;
+}
+
+#sumbitbtn {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border: 2px solid purple;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  text-transform:uppercase ;
+}
+
+
+#user-list {
+
+margin: auto;
+margin-top: 45px;
+width: 50%;
+border: 2px solid;
+font-size: 24px;
+
+}
+
+#deletebtn {
+
+  margin: 20px;
+  padding: 0.5rem;
+  background-color: rgb(81, 115, 31);
+  color: aliceblue;
+  width: 10%;
+  text-transform:uppercase ;
+}
